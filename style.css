@@ -3,3 +3,51 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*Images*/
+
+.logo {
+	max-width: 40%;
+	height: auto;
+}
+
+.mock {
+	max-width:100%;
+	height: auto;
+}
+
+.icons {
+	max-width:10%;
+	height: auto;
+}
+
+/* Text */
+
+.textColor {
+	color: #FFF;
+}
+
+.text {
+	font-size: 0.8em;
+}
+
+.textBtn {
+	color:hsl(257, 40%, 49%);
+	font-size: 0.9em
+}
+
+.attribution a { 
+	color: hsl(0, 100%, 18%);
+ }
+
+ /*Button*/
+
+ .btn {
+ 	background-color: #FFF;
+ 	border:1px solid hsl(257, 40%, 49%);
+ 	border-radius: 90px 90px 90px 90px;
+ 	box-shadow:0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+ 	padding: 2%;
+	width: 45%
+
+ }
