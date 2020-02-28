@@ -51,3 +51,13 @@ body{
 
  }
 
+ /*Alignment*/
+
+ .center {
+ 	text-align: center;
+ }
+
+.media {
+	margin-top: 20%;
+}
+
