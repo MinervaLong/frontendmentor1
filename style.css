@@ -51,3 +51,10 @@ body{
 
  }
 
+ /*Section alignment*/
+
+ .center {
+ 	text-align: center;
+ }
+
+
