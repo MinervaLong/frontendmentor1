@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -45,7 +46,7 @@ body{
 
 .attribution a { 
 	color: hsl(0, 100%, 18%);
- }
+}
 
  /*Button*/
 
@@ -66,6 +67,16 @@ body{
  }
 
 .media {
-	margin-top: 20%;
+	margin-top: 10%;
+}
+
+/*Footer*/
+
+footer {
+	position: relative;
+	left:0;
+	bottom:0;
+	width:100%;
+	text-align: center;
 }
 
