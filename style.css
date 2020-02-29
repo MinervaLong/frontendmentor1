@@ -80,6 +80,10 @@ p {
 	margin-top: 10%;
 }
 
+.margin {
+	margin: 0% 5% 0% 5%;
+}
+
 /*Footer*/
 
 footer {
