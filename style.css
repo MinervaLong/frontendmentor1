@@ -31,6 +31,16 @@ body{
 
 /* Text */
 
+h2 {
+	font-family: 'Poppins', 'Open Sans';
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
 .textColor {
 	color: #FFF;
 }
