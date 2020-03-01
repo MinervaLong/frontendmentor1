@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
 }
 
-/*Images*/
+/*Images seize*/
 
 .logo {
 	max-width: 40%;
@@ -31,16 +31,6 @@ body{
 
 /* Text */
 
-h2 {
-	font-family: 'Poppins', 'Open Sans';
-	font-weight: 700;
-}
-
-p {
-	font-family: 'Open Sans';
-	font-weight: 400;
-}
-
 .textColor {
 	color: #FFF;
 }
@@ -56,6 +46,16 @@ p {
 
 .attribution a { 
 	color: hsl(0, 100%, 18%);
+}
+
+h2 {
+	font-family: 'Poppins', 'Open Sans';
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-weight: 400;
 }
 
  /*Button*/
@@ -80,9 +80,8 @@ p {
 	margin-top: 10%;
 }
 
-.margin {
+.margin /*Title, text and button box*/ {
 	margin: 0% 5% 0% 5%;
-	max-width: 35%;
 }
 
 /*Footer*/
@@ -95,8 +94,11 @@ footer {
 	text-align: center;
 }
 
-/*FlexBox*/
+/* Media Queries*/
 
+@media only screen and (min-width: 768px) {
+
+	/*FlexBox*/
 .container {
 	display:flex;
 	flex-direction: row;
@@ -104,5 +106,10 @@ footer {
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
+  }
+	.margin {
+	max-width: 35%;
+  }
+
 }
 
