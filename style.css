@@ -35,7 +35,7 @@ body{
 	color: #FFF;
 }
 
-.text {
+.text, .textTitle {
 	font-size: 0.8em;
 }
 
@@ -115,9 +115,55 @@ footer {
 	align-items: center;
 	align-content: center;
   }
-	.margin {
-	max-width: 35%;
+	
+  .logo {
+	max-width: 16%;
+	height: auto;
+	padding: 2% 0 1% 0;
   }
 
-}
+  .textBox {
+  	max-width: 35%;
+  	text-align: left;
+  }
+
+  .textTitle {
+  	font-size: 1.5em;
+  }
+
+  .text {
+  	font-size: 1em
+  }
+
+  .btn {
+  	padding: 3%;
+    width: 39%;
+  }
+   .textBtn {
+   	 font-size: 1.3em;
+   	}
+
+  /*Media icons*/
+
+  	.icons {
+	max-width:32%;
+ }
+
+  	footer {
+      display: flex;
+  	  flex-direction: column;
+  	  flex-wrap: nowrap;
+  	}
+
+  	.media {
+  		align-self: flex-end;
+  		margin-top: 0%;
+  		margin-right: 2%
+  	}
+
+  	.attribution {
+  		align-self: center;
+  	}
+
+ }
 
